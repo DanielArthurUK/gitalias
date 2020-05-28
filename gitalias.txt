@@ -225,6 +225,9 @@
 
   # pull if a merge can be resolved as a fast-forward, otherwise fail.
   pf = pull --ff-only
+  
+  ### push ###
+  ps = push
 
   # pull with rebase - to provide a cleaner, linear, bisectable history.
   #
